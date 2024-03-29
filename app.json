@@ -14,32 +14,32 @@
     "env": {
       "API_ID": {
         "description": "𝐆𝐄𝐓 𝐀𝐏𝐈 𝐈𝐃 𝐅𝐑𝐎𝐌 https://my.telegram.org",
-        "value": "14050586",
+        "value": "23180562",
         "required": true
       },
       "API_HASH": {
         "description": "𝐆𝐄𝐓 𝐀𝐏𝐈 𝐇𝐀𝐒𝐇 𝐅𝐑𝐎𝐌 https://my.telegram.org",
-        "value": "42a60d9c657b106370c79bb0a8ac560c",
+        "value": "8a23a8d9bb22a6ad55ea8a4110c0ee2b",
         "required": true
       },
       "BOT_TOKEN": {
         "description": "𝐆𝐄𝐓 𝐁𝐎𝐓 𝐓𝐎𝐊𝐄𝐍 𝐅𝐑𝐎𝐌 𝐁𝐎𝐓 𝐅𝐀𝐓𝐇𝐄𝐑",
-        "value": "",
+        "value": "6354938549:AAEW2Zt8dhVjLwg5EsMVq1Qs-Q4yjCXc_I0",
         "required": true
       },
       "MONGO_DB_URI": {
         "description": "𝐆𝐄𝐓 𝐀 𝐌𝐎𝐍𝐆𝐎𝐃𝐁 𝐔𝐑𝐋 𝐅𝐑𝐎𝐌 https://cloud.mongodb.com. 𝐈𝐅 𝐘𝐎𝐔 𝐃𝐎𝐍𝐓 𝐇𝐀𝐕𝐄 𝐓𝐇𝐄𝐍 𝐔𝐒𝐄 𝐀𝐋𝐑𝐄𝐀𝐃𝐘 𝐅𝐈𝐋𝐋𝐄𝐃 𝐌𝐎𝐍𝐆𝐎.",
-        "value": "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority",
+        "value": "mongodb+srv://Bhojpuriya:bhojpuriya@cluster0.osrvhzy.mongodb.net/?retryWrites=true&w=majority",
         "required": true
       },
       "OWNER_ID": {
         "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐎𝐖𝐍𝐄𝐑 𝐈𝐃, 𝐔 𝐂𝐀𝐍 𝐔𝐒𝐄 𝐌𝐎𝐑𝐄 𝐏𝐄𝐑𝐒𝐎𝐍 𝐈𝐃 𝐁𝐘 𝐆𝐈𝐕𝐄𝐈𝐍𝐆 𝐒𝐏𝐀𝐂𝐄 𝐀𝐅𝐓𝐄𝐑 𝐎𝐍𝐄 𝐈𝐃.",
-        "value": "1808943146",
+        "value": "7102201471",
         "required": true
       },
       "STRING_SESSION": {
         "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐀  𝐏𝐘𝐑𝐎𝐆𝐑𝐀𝐌 V2 𝐒𝐓𝐑𝐈𝐍𝐆 𝐒𝐄𝐒𝐒𝐈𝐎𝐍, 𝐈𝐅 𝐄𝐑𝐑𝐎𝐑 𝐓𝐇𝐄𝐍 𝐒𝐄𝐍𝐃 𝐄𝐑𝐑𝐎𝐑 𝐒𝐒 𝐓𝐎 𝐑𝐄𝐏𝐎 𝐎𝐖𝐍𝐄𝐑.( 𝐆𝐄𝐓 𝐅𝐑𝐎𝐌 = t.me/VIP_STRING_ROBOT ) . ",
-        "value": "",
+        "value": "BQFhtRIAhqIrP4JaMrSA-9vl6IoggjsJacYTxAWppMowWElHxr_ZFDzqeVEmpwcrGPHitfcnATn4-wdL53WN8N3Ked-tibq50BBsNj0cBrrQLMznq5dhb94mLHTdwbtJVBiSnAFE2AoyHalWMF6XhePBfKftshgDNNuW2_754sIXj1F19ZzfR0Vni6cVnBa3qXNmQiD9mvBE_nIYMRpybmjDXTGH52e5xnD43OeF-XimhNOMReBoAARPR9VnHyYX6QRcWiteQ1eEz62mVpWEzWBY7YogE3nxqXWfbpO7klyiV-SZZej2bR2RSlZ7UsymPx7k99xE-FQQLUCY5J7LEPxZygxwAAAAGddRkfAA",
         "required": true
       },
       "HEROKU_API_KEY": {
@@ -64,7 +64,7 @@
       },
       "START_IMG_URL": {
         "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐘𝐎𝐔𝐑 𝐒𝐓𝐀𝐑𝐓 𝐁𝐎𝐓 𝐈𝐌𝐀𝐆𝐄 𝐔𝐑𝐋, 𝐆𝐄𝐓 𝐈𝐓 𝐅𝐑𝐎𝐌 ;- t.me/vTelegraphBot",
-        "value": "https://graph.org/file/bb82d4dec21bd84e6cb43.jpg",
+        "value": "https://graph.org/file/63d4de92c52cde4a34482.jpg",
         "required": false
       },
       "LOGGER_ID": {
@@ -87,7 +87,7 @@
       "formation": {
           "worker": {
               "quantity": 1,
-              "size": "basic"
+              "size": "eco"
           }
       },
       "stack": "container"
