@@ -39,7 +39,7 @@
       },
       "STRING_SESSION": {
         "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐀  𝐏𝐘𝐑𝐎𝐆𝐑𝐀𝐌 V2 𝐒𝐓𝐑𝐈𝐍𝐆 𝐒𝐄𝐒𝐒𝐈𝐎𝐍, 𝐈𝐅 𝐄𝐑𝐑𝐎𝐑 𝐓𝐇𝐄𝐍 𝐒𝐄𝐍𝐃 𝐄𝐑𝐑𝐎𝐑 𝐒𝐒 𝐓𝐎 𝐑𝐄𝐏𝐎 𝐎𝐖𝐍𝐄𝐑.( 𝐆𝐄𝐓 𝐅𝐑𝐎𝐌 = t.me/VIP_STRING_ROBOT ) . ",
-        "value": "BQFhtRIAhqIrP4JaMrSA-9vl6IoggjsJacYTxAWppMowWElHxr_ZFDzqeVEmpwcrGPHitfcnATn4-wdL53WN8N3Ked-tibq50BBsNj0cBrrQLMznq5dhb94mLHTdwbtJVBiSnAFE2AoyHalWMF6XhePBfKftshgDNNuW2_754sIXj1F19ZzfR0Vni6cVnBa3qXNmQiD9mvBE_nIYMRpybmjDXTGH52e5xnD43OeF-XimhNOMReBoAARPR9VnHyYX6QRcWiteQ1eEz62mVpWEzWBY7YogE3nxqXWfbpO7klyiV-SZZej2bR2RSlZ7UsymPx7k99xE-FQQLUCY5J7LEPxZygxwAAAAGddRkfAA",
+        "value": "",
         "required": true
       },
       "HEROKU_API_KEY": {
