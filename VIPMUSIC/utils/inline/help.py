@@ -5,7 +5,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from VIPMUSIC import app
 
 def first_page(_):
-	controll_button = [InlineKeyboardButton(text="๏ ᴍᴇɴᴜ ๏", callback_data=f"settingsback_helper"), InlineKeyboardButton(text="๏ ɴᴇxᴛ ๏", callback_data=f"dilXaditi")]
+	controll_button = [InlineKeyboardButton(text="ᴍᴇɴᴜ", callback_data=f"settingsback_helper"), InlineKeyboardButton(text="﹥", callback_data=f"dilXaditi")]
 	first_page_menu = InlineKeyboardMarkup(
 		[
 			[InlineKeyboardButton(text=_["H_B_1"], callback_data="help_callback hb1"), InlineKeyboardButton(text=_["H_B_2"], callback_data="help_callback hb2"),InlineKeyboardButton(text=_["H_B_3"], callback_data="help_callback hb3")],
@@ -20,7 +20,7 @@ def first_page(_):
 
 
 def second_page(_):
-	controll_button = [InlineKeyboardButton(text="๏ ʙᴀᴄᴋ ๏", callback_data=f"settings_back_helper")]
+	controll_button = [InlineKeyboardButton(text="﹤", callback_data=f"settings_back_helper")]
 	second_page_menu = InlineKeyboardMarkup(
 		[
 			[InlineKeyboardButton(text=_["H_B_7"], callback_data="help_callback hb7"), InlineKeyboardButton(text=_["H_B_19"], callback_data="help_callback hb19"),InlineKeyboardButton(text=_["H_B_14"], callback_data="help_callback hb14")],
