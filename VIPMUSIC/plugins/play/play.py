@@ -2,7 +2,7 @@ import random
 import string
 import asyncio
 from pyrogram import client, filters
-from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
+from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message, InlineKeyboardButton
 from pytgcalls.exceptions import NoActiveGroupCall
 from VIPMUSIC.utils.database import get_assistant
 import config
@@ -51,8 +51,8 @@ SPAM_WINDOW_SECONDS = 5
 @PlayWrapper
 # ... (existing code)
 
-
-if not await is_served_user(message.from_user.id):
+):
+    if not await is_served_user(message.from_user.id):
         await message.reply_text(
             text="ᴇʀʀᴏʀ, ʏᴏᴜ'ʀᴇ ɴᴏᴛ ᴀ ᴠᴇʀɪғɪᴇᴅ ᴜsᴇʀ.\nᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴠᴇʀɪғʏ ʏᴏᴜʀsᴇʟғ.",
             reply_markup=InlineKeyboardMarkup(
