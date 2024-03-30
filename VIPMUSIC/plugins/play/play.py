@@ -51,7 +51,20 @@ SPAM_WINDOW_SECONDS = 5
 @PlayWrapper
 # ... (existing code)
 
+
+    
+async def play_commnd(
+    client,
+    message: Message,
+    _,
+    chat_id,
+    video,
+    channel,
+    playmode,
+    url,
+    fplay,
 ):
+
     if not await is_served_user(message.from_user.id):
         await message.reply_text(
             text="ᴇʀʀᴏʀ, ʏᴏᴜ'ʀᴇ ɴᴏᴛ ᴀ ᴠᴇʀɪғɪᴇᴅ ᴜsᴇʀ.\nᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴠᴇʀɪғʏ ʏᴏᴜʀsᴇʟғ.",
@@ -66,18 +79,7 @@ SPAM_WINDOW_SECONDS = 5
                 ]
             ),
             return
-    
-async def play_commnd(
-    client,
-    message: Message,
-    _,
-    chat_id,
-    video,
-    channel,
-    playmode,
-    url,
-    fplay,
-):
+            
     user_id = message.from_user.id
     current_time = time()
     # Update the last message timestamp for the user
