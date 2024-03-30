@@ -65,8 +65,7 @@ SPAM_WINDOW_SECONDS = 5
                     ]
                 ]
             ),
-        )
-        return
+            return
     
 async def play_commnd(
     client,
